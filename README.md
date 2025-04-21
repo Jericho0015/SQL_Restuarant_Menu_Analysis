@@ -13,3 +13,16 @@ Second objective is to better understand the orders table by finding the date ra
 _Analyze customer behavior:-_
 Final objective is to combine the items and orders tables, find the least and most ordered categories, and dive into the details of the highest spend orders.
 
+**SQL QUERIES**
+
+SELECT * FROM menu_items;
+SELECT * FROM order_details;
+
+SELECT *  FROM order_details od LEFT JOIN menu_items mi
+	ON od.item_id = mi.menu_item_id;
+
+SELECT item_name, category, COUNT(order_details_id) AS num_purchases 
+FROM order_details od LEFT JOIN menu_items mi
+	ON od.item_id = mi.menu_item_id
+GROUP BY item_name, category;
+
