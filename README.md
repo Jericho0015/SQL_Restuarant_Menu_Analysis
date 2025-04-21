@@ -1,5 +1,5 @@
 # Restaurant Order Analysis
-For my SQL Restaurant Order Analysis project, I worked with a sample restaurant dataset to analyze customer orders, popular menu items, peak order times, and sales performance. I wrote complex SQL queries to filter, join, and group data from multiple tables, and window functions for deeper insights. The goal was to help the restaurant identify trends and optimize their menu and operations. 
+For SQL Restaurant Order Analysis project, I worked with a sample restaurant dataset to analyze customer orders, popular menu items, peak order times, and sales performance. I wrote complex SQL queries to filter, join, and group data from multiple tables, and window functions for deeper insights. The goal was to help the restaurant identify trends and optimize their menu and operations. 
 
 -- Objective 1 --
 _Explore the items table:-_
