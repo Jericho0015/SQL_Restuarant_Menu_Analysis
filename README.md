@@ -9,3 +9,25 @@ In this project, I analyzed customer orders, identified popular menu items, eval
 - Filtering and grouping
 - Window functions for ranking and cumulative metrics
 - Exploratory data analysis (EDA)
+
+# 🧩 Dataset
+Two primary tables were used:
+- **menu_items**: Contains details about each item on the menu (e.g., name, category, price)
+- **order_details**: Contains records of ordered items and associated order IDs
+
+# 🎯 Project Objectives
+**✅ Objective 1: Explore the menu_items Table**
+- Count the number of menu items
+- Identify the most and least expensive items
+- Analyze item pricing across categories
+
+**✅ Objective 2**: Explore the order_details Table
+- Understand the order date range
+- Count the number of items in each order
+- Identify the largest orders by item count
+
+**✅ Objective 3**: Analyze Customer Behavior
+- Combine menu_items and order_details to find:
+- Most and least ordered categories
+- High-spending orders and purchasing trends
+
