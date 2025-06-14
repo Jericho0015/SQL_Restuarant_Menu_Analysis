@@ -31,3 +31,14 @@ Two primary tables were used:
 - Most and least ordered categories
 - High-spending orders and purchasing trends
 
+# 📈 Insights Gained
+- Identified top-selling and least popular menu items
+- Found peak ordering periods and large order patterns
+- Highlighted customer preferences by category
+- Surface opportunities to optimize pricing and menu layout
+
+# 🛠️ Tool Used
+- SQL (PostgreSQL/MySQL-compatible syntax)
+
+# 📌 Conclusion
+This analysis provides a data-driven foundation for restaurant decision-making. By leveraging SQL to explore and visualize data, restaurant managers can better align their offerings with customer behavior and operational needs.
